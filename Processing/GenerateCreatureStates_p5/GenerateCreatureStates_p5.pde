@@ -639,7 +639,7 @@ void setupStates()
 
   //SURPRISED
   
-  ExternalStateMap3D[SURPRISED][HAPPY][HAPPY] = 0;
+  ExternalStateMap3D[SURPRISED][HAPPY][HAPPY] = 10;
   ExternalStateMap3D[SURPRISED][HAPPY][SAD] = 0;
   ExternalStateMap3D[SURPRISED][HAPPY][ANGRY] = 0;
   ExternalStateMap3D[SURPRISED][HAPPY][BORED] = 0;
@@ -649,28 +649,31 @@ void setupStates()
   ExternalStateMap3D[SURPRISED][HAPPY][ANTISOCIAL] = 0;
   ExternalStateMap3D[SURPRISED][HAPPY][DYING] = 0;
   ExternalStateMap3D[SURPRISED][HAPPY][DEAD] = 0;
+  
   ExternalStateMap3D[SURPRISED][SAD][HAPPY] = 0;
-  ExternalStateMap3D[SURPRISED][SAD][SAD] = 0;
+  ExternalStateMap3D[SURPRISED][SAD][SAD] = 3;
   ExternalStateMap3D[SURPRISED][SAD][ANGRY] = 0;
-  ExternalStateMap3D[SURPRISED][SAD][BORED] = 0;
-  ExternalStateMap3D[SURPRISED][SAD][DISGUSTED] = 0;
+  ExternalStateMap3D[SURPRISED][SAD][BORED] = 3;
+  ExternalStateMap3D[SURPRISED][SAD][DISGUSTED] = 4;
   ExternalStateMap3D[SURPRISED][SAD][SURPRISED] = 0;
   ExternalStateMap3D[SURPRISED][SAD][HORNY] = 0;
   ExternalStateMap3D[SURPRISED][SAD][ANTISOCIAL] = 0;
   ExternalStateMap3D[SURPRISED][SAD][DYING] = 0;
   ExternalStateMap3D[SURPRISED][SAD][DEAD] = 0;
+  
   ExternalStateMap3D[SURPRISED][ANGRY][HAPPY] = 0;
-  ExternalStateMap3D[SURPRISED][ANGRY][SAD] = 0;
-  ExternalStateMap3D[SURPRISED][ANGRY][ANGRY] = 0;
+  ExternalStateMap3D[SURPRISED][ANGRY][SAD] = 3;
+  ExternalStateMap3D[SURPRISED][ANGRY][ANGRY] = 3;
   ExternalStateMap3D[SURPRISED][ANGRY][BORED] = 0;
   ExternalStateMap3D[SURPRISED][ANGRY][DISGUSTED] = 0;
-  ExternalStateMap3D[SURPRISED][ANGRY][SURPRISED] = 0;
+  ExternalStateMap3D[SURPRISED][ANGRY][SURPRISED] = 4;
   ExternalStateMap3D[SURPRISED][ANGRY][HORNY] = 0;
   ExternalStateMap3D[SURPRISED][ANGRY][ANTISOCIAL] = 0;
   ExternalStateMap3D[SURPRISED][ANGRY][DYING] = 0;
   ExternalStateMap3D[SURPRISED][ANGRY][DEAD] = 0;
-  ExternalStateMap3D[SURPRISED][BORED][HAPPY] = 0;
-  ExternalStateMap3D[SURPRISED][BORED][SAD] = 0;
+  
+  ExternalStateMap3D[SURPRISED][BORED][HAPPY] = 5;
+  ExternalStateMap3D[SURPRISED][BORED][SAD] = 5;
   ExternalStateMap3D[SURPRISED][BORED][ANGRY] = 0;
   ExternalStateMap3D[SURPRISED][BORED][BORED] = 0;
   ExternalStateMap3D[SURPRISED][BORED][DISGUSTED] = 0;
@@ -679,8 +682,9 @@ void setupStates()
   ExternalStateMap3D[SURPRISED][BORED][ANTISOCIAL] = 0;
   ExternalStateMap3D[SURPRISED][BORED][DYING] = 0;
   ExternalStateMap3D[SURPRISED][BORED][DEAD] = 0;
+  
   ExternalStateMap3D[SURPRISED][DISGUSTED][HAPPY] = 0;
-  ExternalStateMap3D[SURPRISED][DISGUSTED][SAD] = 0;
+  ExternalStateMap3D[SURPRISED][DISGUSTED][SAD] = 10;
   ExternalStateMap3D[SURPRISED][DISGUSTED][ANGRY] = 0;
   ExternalStateMap3D[SURPRISED][DISGUSTED][BORED] = 0;
   ExternalStateMap3D[SURPRISED][DISGUSTED][DISGUSTED] = 0;
@@ -689,39 +693,43 @@ void setupStates()
   ExternalStateMap3D[SURPRISED][DISGUSTED][ANTISOCIAL] = 0;
   ExternalStateMap3D[SURPRISED][DISGUSTED][DYING] = 0;
   ExternalStateMap3D[SURPRISED][DISGUSTED][DEAD] = 0;
-  ExternalStateMap3D[SURPRISED][SURPRISED][HAPPY] = 0;
+  
+  ExternalStateMap3D[SURPRISED][SURPRISED][HAPPY] = 5;
   ExternalStateMap3D[SURPRISED][SURPRISED][SAD] = 0;
   ExternalStateMap3D[SURPRISED][SURPRISED][ANGRY] = 0;
   ExternalStateMap3D[SURPRISED][SURPRISED][BORED] = 0;
   ExternalStateMap3D[SURPRISED][SURPRISED][DISGUSTED] = 0;
-  ExternalStateMap3D[SURPRISED][SURPRISED][SURPRISED] = 0;
+  ExternalStateMap3D[SURPRISED][SURPRISED][SURPRISED] = 5;
   ExternalStateMap3D[SURPRISED][SURPRISED][HORNY] = 0;
   ExternalStateMap3D[SURPRISED][SURPRISED][ANTISOCIAL] = 0;
   ExternalStateMap3D[SURPRISED][SURPRISED][DYING] = 0;
   ExternalStateMap3D[SURPRISED][SURPRISED][DEAD] = 0;
-  ExternalStateMap3D[SURPRISED][HORNY][HAPPY] = 0;
+  
+  ExternalStateMap3D[SURPRISED][HORNY][HAPPY] = 3;
   ExternalStateMap3D[SURPRISED][HORNY][SAD] = 0;
   ExternalStateMap3D[SURPRISED][HORNY][ANGRY] = 0;
   ExternalStateMap3D[SURPRISED][HORNY][BORED] = 0;
-  ExternalStateMap3D[SURPRISED][HORNY][DISGUSTED] = 0;
+  ExternalStateMap3D[SURPRISED][HORNY][DISGUSTED] = 3;
   ExternalStateMap3D[SURPRISED][HORNY][SURPRISED] = 0;
-  ExternalStateMap3D[SURPRISED][HORNY][HORNY] = 0;
+  ExternalStateMap3D[SURPRISED][HORNY][HORNY] = 4;
   ExternalStateMap3D[SURPRISED][HORNY][ANTISOCIAL] = 0;
   ExternalStateMap3D[SURPRISED][HORNY][DYING] = 0;
   ExternalStateMap3D[SURPRISED][HORNY][DEAD] = 0;
+  
   ExternalStateMap3D[SURPRISED][ANTISOCIAL][HAPPY] = 0;
-  ExternalStateMap3D[SURPRISED][ANTISOCIAL][SAD] = 0;
-  ExternalStateMap3D[SURPRISED][ANTISOCIAL][ANGRY] = 0;
+  ExternalStateMap3D[SURPRISED][ANTISOCIAL][SAD] = 4;
+  ExternalStateMap3D[SURPRISED][ANTISOCIAL][ANGRY] = 3;
   ExternalStateMap3D[SURPRISED][ANTISOCIAL][BORED] = 0;
   ExternalStateMap3D[SURPRISED][ANTISOCIAL][DISGUSTED] = 0;
   ExternalStateMap3D[SURPRISED][ANTISOCIAL][SURPRISED] = 0;
   ExternalStateMap3D[SURPRISED][ANTISOCIAL][HORNY] = 0;
-  ExternalStateMap3D[SURPRISED][ANTISOCIAL][ANTISOCIAL] = 0;
+  ExternalStateMap3D[SURPRISED][ANTISOCIAL][ANTISOCIAL] = 3;
   ExternalStateMap3D[SURPRISED][ANTISOCIAL][DYING] = 0;
   ExternalStateMap3D[SURPRISED][ANTISOCIAL][DEAD] = 0;
+  
   ExternalStateMap3D[SURPRISED][DYING][HAPPY] = 0;
-  ExternalStateMap3D[SURPRISED][DYING][SAD] = 0;
-  ExternalStateMap3D[SURPRISED][DYING][ANGRY] = 0;
+  ExternalStateMap3D[SURPRISED][DYING][SAD] = 5;
+  ExternalStateMap3D[SURPRISED][DYING][ANGRY] = 5;
   ExternalStateMap3D[SURPRISED][DYING][BORED] = 0;
   ExternalStateMap3D[SURPRISED][DYING][DISGUSTED] = 0;
   ExternalStateMap3D[SURPRISED][DYING][SURPRISED] = 0;
@@ -729,8 +737,9 @@ void setupStates()
   ExternalStateMap3D[SURPRISED][DYING][ANTISOCIAL] = 0;
   ExternalStateMap3D[SURPRISED][DYING][DYING] = 0;
   ExternalStateMap3D[SURPRISED][DYING][DEAD] = 0;
+  
   ExternalStateMap3D[SURPRISED][DEAD][HAPPY] = 0;
-  ExternalStateMap3D[SURPRISED][DEAD][SAD] = 0;
+  ExternalStateMap3D[SURPRISED][DEAD][SAD] = 10;
   ExternalStateMap3D[SURPRISED][DEAD][ANGRY] = 0;
   ExternalStateMap3D[SURPRISED][DEAD][BORED] = 0;
   ExternalStateMap3D[SURPRISED][DEAD][DISGUSTED] = 0;
@@ -744,19 +753,20 @@ void setupStates()
   //HORNY
   
 
-  ExternalStateMap3D[HORNY][HAPPY][HAPPY] = 0;
+  ExternalStateMap3D[HORNY][HAPPY][HAPPY] = 4;
   ExternalStateMap3D[HORNY][HAPPY][SAD] = 0;
   ExternalStateMap3D[HORNY][HAPPY][ANGRY] = 0;
-  ExternalStateMap3D[HORNY][HAPPY][BORED] = 0;
+  ExternalStateMap3D[HORNY][HAPPY][BORED] = 3;
   ExternalStateMap3D[HORNY][HAPPY][DISGUSTED] = 0;
   ExternalStateMap3D[HORNY][HAPPY][SURPRISED] = 0;
-  ExternalStateMap3D[HORNY][HAPPY][HORNY] = 0;
+  ExternalStateMap3D[HORNY][HAPPY][HORNY] = 3;
   ExternalStateMap3D[HORNY][HAPPY][ANTISOCIAL] = 0;
   ExternalStateMap3D[HORNY][HAPPY][DYING] = 0;
   ExternalStateMap3D[HORNY][HAPPY][DEAD] = 0;
+  
   ExternalStateMap3D[HORNY][SAD][HAPPY] = 0;
-  ExternalStateMap3D[HORNY][SAD][SAD] = 0;
-  ExternalStateMap3D[HORNY][SAD][ANGRY] = 0;
+  ExternalStateMap3D[HORNY][SAD][SAD] = 5;
+  ExternalStateMap3D[HORNY][SAD][ANGRY] = 5;
   ExternalStateMap3D[HORNY][SAD][BORED] = 0;
   ExternalStateMap3D[HORNY][SAD][DISGUSTED] = 0;
   ExternalStateMap3D[HORNY][SAD][SURPRISED] = 0;
@@ -764,68 +774,75 @@ void setupStates()
   ExternalStateMap3D[HORNY][SAD][ANTISOCIAL] = 0;
   ExternalStateMap3D[HORNY][SAD][DYING] = 0;
   ExternalStateMap3D[HORNY][SAD][DEAD] = 0;
+  
   ExternalStateMap3D[HORNY][ANGRY][HAPPY] = 0;
-  ExternalStateMap3D[HORNY][ANGRY][SAD] = 0;
-  ExternalStateMap3D[HORNY][ANGRY][ANGRY] = 0;
+  ExternalStateMap3D[HORNY][ANGRY][SAD] = 4;
+  ExternalStateMap3D[HORNY][ANGRY][ANGRY] = 3;
   ExternalStateMap3D[HORNY][ANGRY][BORED] = 0;
   ExternalStateMap3D[HORNY][ANGRY][DISGUSTED] = 0;
-  ExternalStateMap3D[HORNY][ANGRY][SURPRISED] = 0;
+  ExternalStateMap3D[HORNY][ANGRY][SURPRISED] = 3;
   ExternalStateMap3D[HORNY][ANGRY][HORNY] = 0;
   ExternalStateMap3D[HORNY][ANGRY][ANTISOCIAL] = 0;
   ExternalStateMap3D[HORNY][ANGRY][DYING] = 0;
   ExternalStateMap3D[HORNY][ANGRY][DEAD] = 0;
+  
   ExternalStateMap3D[HORNY][BORED][HAPPY] = 0;
-  ExternalStateMap3D[HORNY][BORED][SAD] = 0;
+  ExternalStateMap3D[HORNY][BORED][SAD] = 5;
   ExternalStateMap3D[HORNY][BORED][ANGRY] = 0;
   ExternalStateMap3D[HORNY][BORED][BORED] = 0;
-  ExternalStateMap3D[HORNY][BORED][DISGUSTED] = 0;
+  ExternalStateMap3D[HORNY][BORED][DISGUSTED] = 5;
   ExternalStateMap3D[HORNY][BORED][SURPRISED] = 0;
   ExternalStateMap3D[HORNY][BORED][HORNY] = 0;
   ExternalStateMap3D[HORNY][BORED][ANTISOCIAL] = 0;
   ExternalStateMap3D[HORNY][BORED][DYING] = 0;
   ExternalStateMap3D[HORNY][BORED][DEAD] = 0;
+  
   ExternalStateMap3D[HORNY][DISGUSTED][HAPPY] = 0;
-  ExternalStateMap3D[HORNY][DISGUSTED][SAD] = 0;
-  ExternalStateMap3D[HORNY][DISGUSTED][ANGRY] = 0;
+  ExternalStateMap3D[HORNY][DISGUSTED][SAD] = 3;
+  ExternalStateMap3D[HORNY][DISGUSTED][ANGRY] = 3;
   ExternalStateMap3D[HORNY][DISGUSTED][BORED] = 0;
   ExternalStateMap3D[HORNY][DISGUSTED][DISGUSTED] = 0;
-  ExternalStateMap3D[HORNY][DISGUSTED][SURPRISED] = 0;
+  ExternalStateMap3D[HORNY][DISGUSTED][SURPRISED] = 4;
   ExternalStateMap3D[HORNY][DISGUSTED][HORNY] = 0;
   ExternalStateMap3D[HORNY][DISGUSTED][ANTISOCIAL] = 0;
   ExternalStateMap3D[HORNY][DISGUSTED][DYING] = 0;
   ExternalStateMap3D[HORNY][DISGUSTED][DEAD] = 0;
-  ExternalStateMap3D[HORNY][SURPRISED][HAPPY] = 0;
-  ExternalStateMap3D[HORNY][SURPRISED][SAD] = 0;
-  ExternalStateMap3D[HORNY][SURPRISED][ANGRY] = 0;
+  
+  ExternalStateMap3D[HORNY][SURPRISED][HAPPY] = 2;
+  ExternalStateMap3D[HORNY][SURPRISED][SAD] = 3;
+  ExternalStateMap3D[HORNY][SURPRISED][ANGRY] = 3;
   ExternalStateMap3D[HORNY][SURPRISED][BORED] = 0;
   ExternalStateMap3D[HORNY][SURPRISED][DISGUSTED] = 0;
   ExternalStateMap3D[HORNY][SURPRISED][SURPRISED] = 0;
-  ExternalStateMap3D[HORNY][SURPRISED][HORNY] = 0;
+  ExternalStateMap3D[HORNY][SURPRISED][HORNY] = 2;
   ExternalStateMap3D[HORNY][SURPRISED][ANTISOCIAL] = 0;
   ExternalStateMap3D[HORNY][SURPRISED][DYING] = 0;
   ExternalStateMap3D[HORNY][SURPRISED][DEAD] = 0;
+  
   ExternalStateMap3D[HORNY][HORNY][HAPPY] = 0;
   ExternalStateMap3D[HORNY][HORNY][SAD] = 0;
   ExternalStateMap3D[HORNY][HORNY][ANGRY] = 0;
-  ExternalStateMap3D[HORNY][HORNY][BORED] = 0;
+  ExternalStateMap3D[HORNY][HORNY][BORED] = 5;
   ExternalStateMap3D[HORNY][HORNY][DISGUSTED] = 0;
   ExternalStateMap3D[HORNY][HORNY][SURPRISED] = 0;
-  ExternalStateMap3D[HORNY][HORNY][HORNY] = 0;
+  ExternalStateMap3D[HORNY][HORNY][HORNY] = 5;
   ExternalStateMap3D[HORNY][HORNY][ANTISOCIAL] = 0;
   ExternalStateMap3D[HORNY][HORNY][DYING] = 0;
   ExternalStateMap3D[HORNY][HORNY][DEAD] = 0;
+  
   ExternalStateMap3D[HORNY][ANTISOCIAL][HAPPY] = 0;
-  ExternalStateMap3D[HORNY][ANTISOCIAL][SAD] = 0;
+  ExternalStateMap3D[HORNY][ANTISOCIAL][SAD] = 5;
   ExternalStateMap3D[HORNY][ANTISOCIAL][ANGRY] = 0;
   ExternalStateMap3D[HORNY][ANTISOCIAL][BORED] = 0;
   ExternalStateMap3D[HORNY][ANTISOCIAL][DISGUSTED] = 0;
-  ExternalStateMap3D[HORNY][ANTISOCIAL][SURPRISED] = 0;
+  ExternalStateMap3D[HORNY][ANTISOCIAL][SURPRISED] = 5;
   ExternalStateMap3D[HORNY][ANTISOCIAL][HORNY] = 0;
   ExternalStateMap3D[HORNY][ANTISOCIAL][ANTISOCIAL] = 0;
   ExternalStateMap3D[HORNY][ANTISOCIAL][DYING] = 0;
   ExternalStateMap3D[HORNY][ANTISOCIAL][DEAD] = 0;
+  
   ExternalStateMap3D[HORNY][DYING][HAPPY] = 0;
-  ExternalStateMap3D[HORNY][DYING][SAD] = 0;
+  ExternalStateMap3D[HORNY][DYING][SAD] = 10;
   ExternalStateMap3D[HORNY][DYING][ANGRY] = 0;
   ExternalStateMap3D[HORNY][DYING][BORED] = 0;
   ExternalStateMap3D[HORNY][DYING][DISGUSTED] = 0;
@@ -834,8 +851,9 @@ void setupStates()
   ExternalStateMap3D[HORNY][DYING][ANTISOCIAL] = 0;
   ExternalStateMap3D[HORNY][DYING][DYING] = 0;
   ExternalStateMap3D[HORNY][DYING][DEAD] = 0;
+  
   ExternalStateMap3D[HORNY][DEAD][HAPPY] = 0;
-  ExternalStateMap3D[HORNY][DEAD][SAD] = 0;
+  ExternalStateMap3D[HORNY][DEAD][SAD] = 10;
   ExternalStateMap3D[HORNY][DEAD][ANGRY] = 0;
   ExternalStateMap3D[HORNY][DEAD][BORED] = 0;
   ExternalStateMap3D[HORNY][DEAD][DISGUSTED] = 0;
@@ -850,34 +868,37 @@ void setupStates()
   
   ExternalStateMap3D[ANTISOCIAL][HAPPY][HAPPY] = 0;
   ExternalStateMap3D[ANTISOCIAL][HAPPY][SAD] = 0;
-  ExternalStateMap3D[ANTISOCIAL][HAPPY][ANGRY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][HAPPY][BORED] = 0;
+  ExternalStateMap3D[ANTISOCIAL][HAPPY][ANGRY] = 4;
+  ExternalStateMap3D[ANTISOCIAL][HAPPY][BORED] = 3;
   ExternalStateMap3D[ANTISOCIAL][HAPPY][DISGUSTED] = 0;
   ExternalStateMap3D[ANTISOCIAL][HAPPY][SURPRISED] = 0;
   ExternalStateMap3D[ANTISOCIAL][HAPPY][HORNY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][HAPPY][ANTISOCIAL] = 0;
+  ExternalStateMap3D[ANTISOCIAL][HAPPY][ANTISOCIAL] = 3;
   ExternalStateMap3D[ANTISOCIAL][HAPPY][DYING] = 0;
   ExternalStateMap3D[ANTISOCIAL][HAPPY][DEAD] = 0;
+  
   ExternalStateMap3D[ANTISOCIAL][SAD][HAPPY] = 0;
   ExternalStateMap3D[ANTISOCIAL][SAD][SAD] = 0;
   ExternalStateMap3D[ANTISOCIAL][SAD][ANGRY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][SAD][BORED] = 0;
+  ExternalStateMap3D[ANTISOCIAL][SAD][BORED] = 5;
   ExternalStateMap3D[ANTISOCIAL][SAD][DISGUSTED] = 0;
   ExternalStateMap3D[ANTISOCIAL][SAD][SURPRISED] = 0;
   ExternalStateMap3D[ANTISOCIAL][SAD][HORNY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][SAD][ANTISOCIAL] = 0;
+  ExternalStateMap3D[ANTISOCIAL][SAD][ANTISOCIAL] = 5;
   ExternalStateMap3D[ANTISOCIAL][SAD][DYING] = 0;
   ExternalStateMap3D[ANTISOCIAL][SAD][DEAD] = 0;
+  
   ExternalStateMap3D[ANTISOCIAL][ANGRY][HAPPY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][ANGRY][SAD] = 0;
+  ExternalStateMap3D[ANTISOCIAL][ANGRY][SAD] = 5;
   ExternalStateMap3D[ANTISOCIAL][ANGRY][ANGRY] = 0;
   ExternalStateMap3D[ANTISOCIAL][ANGRY][BORED] = 0;
   ExternalStateMap3D[ANTISOCIAL][ANGRY][DISGUSTED] = 0;
   ExternalStateMap3D[ANTISOCIAL][ANGRY][SURPRISED] = 0;
   ExternalStateMap3D[ANTISOCIAL][ANGRY][HORNY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][ANGRY][ANTISOCIAL] = 0;
+  ExternalStateMap3D[ANTISOCIAL][ANGRY][ANTISOCIAL] = 5;
   ExternalStateMap3D[ANTISOCIAL][ANGRY][DYING] = 0;
   ExternalStateMap3D[ANTISOCIAL][ANGRY][DEAD] = 0;
+  
   ExternalStateMap3D[ANTISOCIAL][BORED][HAPPY] = 0;
   ExternalStateMap3D[ANTISOCIAL][BORED][SAD] = 0;
   ExternalStateMap3D[ANTISOCIAL][BORED][ANGRY] = 0;
@@ -885,67 +906,73 @@ void setupStates()
   ExternalStateMap3D[ANTISOCIAL][BORED][DISGUSTED] = 0;
   ExternalStateMap3D[ANTISOCIAL][BORED][SURPRISED] = 0;
   ExternalStateMap3D[ANTISOCIAL][BORED][HORNY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][BORED][ANTISOCIAL] = 0;
+  ExternalStateMap3D[ANTISOCIAL][BORED][ANTISOCIAL] = 10;
   ExternalStateMap3D[ANTISOCIAL][BORED][DYING] = 0;
   ExternalStateMap3D[ANTISOCIAL][BORED][DEAD] = 0;
+  
   ExternalStateMap3D[ANTISOCIAL][DISGUSTED][HAPPY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][DISGUSTED][SAD] = 0;
-  ExternalStateMap3D[ANTISOCIAL][DISGUSTED][ANGRY] = 0;
+  ExternalStateMap3D[ANTISOCIAL][DISGUSTED][SAD] = 3;
+  ExternalStateMap3D[ANTISOCIAL][DISGUSTED][ANGRY] = 3;
   ExternalStateMap3D[ANTISOCIAL][DISGUSTED][BORED] = 0;
   ExternalStateMap3D[ANTISOCIAL][DISGUSTED][DISGUSTED] = 0;
   ExternalStateMap3D[ANTISOCIAL][DISGUSTED][SURPRISED] = 0;
   ExternalStateMap3D[ANTISOCIAL][DISGUSTED][HORNY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][DISGUSTED][ANTISOCIAL] = 0;
+  ExternalStateMap3D[ANTISOCIAL][DISGUSTED][ANTISOCIAL] = 4;
   ExternalStateMap3D[ANTISOCIAL][DISGUSTED][DYING] = 0;
   ExternalStateMap3D[ANTISOCIAL][DISGUSTED][DEAD] = 0;
+  
   ExternalStateMap3D[ANTISOCIAL][SURPRISED][HAPPY] = 0;
   ExternalStateMap3D[ANTISOCIAL][SURPRISED][SAD] = 0;
   ExternalStateMap3D[ANTISOCIAL][SURPRISED][ANGRY] = 0;
   ExternalStateMap3D[ANTISOCIAL][SURPRISED][BORED] = 0;
   ExternalStateMap3D[ANTISOCIAL][SURPRISED][DISGUSTED] = 0;
-  ExternalStateMap3D[ANTISOCIAL][SURPRISED][SURPRISED] = 0;
+  ExternalStateMap3D[ANTISOCIAL][SURPRISED][SURPRISED] = 5;
   ExternalStateMap3D[ANTISOCIAL][SURPRISED][HORNY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][SURPRISED][ANTISOCIAL] = 0;
+  ExternalStateMap3D[ANTISOCIAL][SURPRISED][ANTISOCIAL] = 5;
   ExternalStateMap3D[ANTISOCIAL][SURPRISED][DYING] = 0;
   ExternalStateMap3D[ANTISOCIAL][SURPRISED][DEAD] = 0;
-  ExternalStateMap3D[ANTISOCIAL][HORNY][HAPPY] = 0;
+  
+  ExternalStateMap3D[ANTISOCIAL][HORNY][HAPPY] = 3;
   ExternalStateMap3D[ANTISOCIAL][HORNY][SAD] = 0;
   ExternalStateMap3D[ANTISOCIAL][HORNY][ANGRY] = 0;
   ExternalStateMap3D[ANTISOCIAL][HORNY][BORED] = 0;
-  ExternalStateMap3D[ANTISOCIAL][HORNY][DISGUSTED] = 0;
+  ExternalStateMap3D[ANTISOCIAL][HORNY][DISGUSTED] = 2;
   ExternalStateMap3D[ANTISOCIAL][HORNY][SURPRISED] = 0;
-  ExternalStateMap3D[ANTISOCIAL][HORNY][HORNY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][HORNY][ANTISOCIAL] = 0;
+  ExternalStateMap3D[ANTISOCIAL][HORNY][HORNY] = 3;
+  ExternalStateMap3D[ANTISOCIAL][HORNY][ANTISOCIAL] = 2;
   ExternalStateMap3D[ANTISOCIAL][HORNY][DYING] = 0;
   ExternalStateMap3D[ANTISOCIAL][HORNY][DEAD] = 0;
+  
   ExternalStateMap3D[ANTISOCIAL][ANTISOCIAL][HAPPY] = 0;
   ExternalStateMap3D[ANTISOCIAL][ANTISOCIAL][SAD] = 0;
   ExternalStateMap3D[ANTISOCIAL][ANTISOCIAL][ANGRY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][ANTISOCIAL][BORED] = 0;
+  ExternalStateMap3D[ANTISOCIAL][ANTISOCIAL][BORED] = 5;
   ExternalStateMap3D[ANTISOCIAL][ANTISOCIAL][DISGUSTED] = 0;
   ExternalStateMap3D[ANTISOCIAL][ANTISOCIAL][SURPRISED] = 0;
   ExternalStateMap3D[ANTISOCIAL][ANTISOCIAL][HORNY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][ANTISOCIAL][ANTISOCIAL] = 0;
+  ExternalStateMap3D[ANTISOCIAL][ANTISOCIAL][ANTISOCIAL] = 5;
   ExternalStateMap3D[ANTISOCIAL][ANTISOCIAL][DYING] = 0;
   ExternalStateMap3D[ANTISOCIAL][ANTISOCIAL][DEAD] = 0;
+  
   ExternalStateMap3D[ANTISOCIAL][DYING][HAPPY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][DYING][SAD] = 0;
+  ExternalStateMap3D[ANTISOCIAL][DYING][SAD] = 5;
   ExternalStateMap3D[ANTISOCIAL][DYING][ANGRY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][DYING][BORED] = 0;
+  ExternalStateMap3D[ANTISOCIAL][DYING][BORED] = 3;
   ExternalStateMap3D[ANTISOCIAL][DYING][DISGUSTED] = 0;
   ExternalStateMap3D[ANTISOCIAL][DYING][SURPRISED] = 0;
   ExternalStateMap3D[ANTISOCIAL][DYING][HORNY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][DYING][ANTISOCIAL] = 0;
+  ExternalStateMap3D[ANTISOCIAL][DYING][ANTISOCIAL] = 2;
   ExternalStateMap3D[ANTISOCIAL][DYING][DYING] = 0;
   ExternalStateMap3D[ANTISOCIAL][DYING][DEAD] = 0;
+  
   ExternalStateMap3D[ANTISOCIAL][DEAD][HAPPY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][DEAD][SAD] = 0;
+  ExternalStateMap3D[ANTISOCIAL][DEAD][SAD] = 5;
   ExternalStateMap3D[ANTISOCIAL][DEAD][ANGRY] = 0;
   ExternalStateMap3D[ANTISOCIAL][DEAD][BORED] = 0;
   ExternalStateMap3D[ANTISOCIAL][DEAD][DISGUSTED] = 0;
   ExternalStateMap3D[ANTISOCIAL][DEAD][SURPRISED] = 0;
   ExternalStateMap3D[ANTISOCIAL][DEAD][HORNY] = 0;
-  ExternalStateMap3D[ANTISOCIAL][DEAD][ANTISOCIAL] = 0;
+  ExternalStateMap3D[ANTISOCIAL][DEAD][ANTISOCIAL] = 5;
   ExternalStateMap3D[ANTISOCIAL][DEAD][DYING] = 0;
   ExternalStateMap3D[ANTISOCIAL][DEAD][DEAD] = 0;
 
